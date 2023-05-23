@@ -1,0 +1,340 @@
+blockquote{
+    color: aliceblue;
+    text-align: justify;
+}
+
+/*Debut style sur double ligne droite */
+.accueil{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 20px;
+    margin-top: -8%;
+    margin-left: 2%;
+}
+/* Epaisseur et couleur ligne */
+.ligne1, .ligne2{
+    width: 3px;
+    background: #9E91B7;
+}
+/* Hauteur ligne */
+.ligne1{
+    height: 410px;
+}
+.ligne2{
+    height: 300px;
+}
+/* Icons reseau sociaux  */
+.pause{
+    position: fixed;
+    margin-top: 15%;
+    margin-left: 2.5%;
+}
+.pause ul{
+    list-style: none;
+}
+
+
+.accueil-contenu{
+    display: grid;
+    grid-template-columns: 55% 55%;
+    margin-left: 10%;
+}
+/* Fin style ligne */
+
+.grid-accueil:nth-of-type(1){
+    margin-top: 17%;
+}
+
+.grid-accueil:nth-of-type(2){
+    margin-left: -25%;
+}
+
+/* #heros, #chala, .grid-accueil:nth-of-type(1){
+    animation: fadeIN 5s;
+} */
+@keyframes fadeIN {
+
+    from{
+        opacity: 0;
+        margin-left: -1000px;
+        width: 100%;
+    }
+
+    to{
+        opacity: 1;
+        margin-left: 0;
+    }
+    
+}
+
+#texte{
+    width: 72%;
+}
+
+/* #texte p{
+    font-size: 88%;
+    text-align: justify;
+} */
+/* Styele sur photos adversaire et allier */
+#heros{
+    width: 90%;
+    background: #021740;
+    margin-left: 10%;
+}
+
+
+.tous .nom-heros{
+    display: grid;
+    grid-template-columns: 200px 200px  200px 200px;
+    margin-left: 105%;
+    justify-content: space-between;
+
+}
+
+
+.item h2{
+    font-family: 'beyno regular';
+    font-size: 32px;
+}
+
+.item p{
+    text-align: justify;
+    font-size: 75%;
+}
+/* Debut teste */
+.testes{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 13% 25% 15% 25% 13%;
+    margin-left: 10.2% !important;
+    height: 35vh;
+}
+
+.item{
+    width: 91%;
+}
+/* Pour la taile du texte */
+.item p{
+    font-size: 69% !important;
+}
+
+.item .allier{
+    width: 100%;
+    height: 93%;
+    margin-left: 0%;
+}
+
+.item .advis{
+    width: 160%;
+    margin-top: -15%;
+    margin-left: -80%;
+}
+
+.grid-accueil img{
+    width: 100%;
+}
+
+.grid-accueil h2, .chala-texte h2{
+    font-size: 32px;
+    font-family: 'beyno regular';
+}
+
+.item h2{
+    text-align: left;
+}
+
+.ht{
+    padding-top: 12%;
+}
+
+/* Debut sur classe container */
+.chala{
+    display: grid;
+    grid-template-columns: 58.5% 36% !important;
+}
+.chala-texte{
+    margin-left: 22%;
+    margin-top: 25%;
+    width: 80%;
+}
+
+.heros-protecteur{
+    margin-top: 0%;
+}
+
+
+.chala-texte p{
+    font-family:'Cantarell Regular';
+    text-align: justify;
+    font-size: 75%;
+}
+
+/* Blog.chala-texte gauche */
+
+.blog{
+    width: 90%;
+    height: 60%;
+    background: white;
+    margin-left: 5%;
+    margin-top: 55%;
+    border-radius: 10px;
+}
+
+.biographie{
+    align-content: center;
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-top: 65%;
+    padding-right: 5%;
+}
+/* styles photos sur biographique */
+.biographie img{
+    position: relative;
+    margin-top: -200%;
+    width: 100%;
+    height: 200%;
+    margin-left: 0.8%;
+}
+.biographie h3{
+    text-align: center;
+}
+
+/* Bouton sur bio */
+#btn-bio{
+    display: flex;
+}
+.btn-bio{
+    background: #07338c;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+#bio{
+    margin: 10px;
+}
+
+#bio p{
+    color: black;
+}
+.img-rond{
+    margin-top:5%;
+    margin-left: 15%;
+    width: 90%;
+}
+
+.img-rond img{
+    width: 100%;
+}
+
+#forme img{
+    width: 100%;
+}
+#forme .forme{
+    position: absolute;
+    background: rgba(214, 213, 212, 0.507);
+    width: 55%;
+    height: 70%;
+    margin-top: -45%;
+    margin-left: 25%;
+    border-radius: 150px;
+}
+
+.feno{
+    margin: 0 auto;
+    width: 55%;
+    margin-top: 55px;
+    margin-left: 22%;
+}
+
+.feno .output{
+    width: 96%;
+    height: 5vh;
+    border-radius: 50px;
+    background: none;
+    outline: none;
+    padding-left: 15px;
+    border: 1px solid black;
+    margin-top: 4%;
+}
+
+.forme .web{
+    width: 96%;
+    padding-bottom: 25%;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-top: 10px;
+    background: none;
+    border: 1px solid black;
+    outline: none;
+    margin-top: 4%;
+}
+
+.feno .former{
+    text-align: center;
+}
+
+.former h4{
+    font-size: 17px;
+}
+
+.former p{
+    font-size: 45px;
+}
+.forme label{
+    margin-left: 30%;
+    padding: 2% 6%;
+    border-radius: 50px;
+    background: plum;
+    border: none;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+.popup{
+    display: none;
+    position: absolute;
+    background: rgb(214, 213, 212);
+    width: 100%;
+    height: 100%;
+    margin-top: -57.5%;
+    margin-left: -22%;
+    border-radius: 150px;
+    z-index: 3;
+}
+
+label{
+    position: relative;
+    font-size: 105%;
+    cursor: progress;
+}
+
+/* input[type="checkbox"]{
+    display: none;
+} */
+#show:checked ~ .cadre{
+    z-index: 8;
+}
+#show:checked ~.popup{
+    display: block;
+}
+#show:checked ~ .confirme{
+    z-index: -1;
+}
+
+.forme label:hover{
+    cursor: pointer;
+}
+
+.popup h1{
+    text-align: center;
+    margin-top: 28%;
+}
+
+.icon-pied:hover{
+    scale: 110%;
+}
