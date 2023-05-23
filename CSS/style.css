@@ -2,39 +2,6 @@
     margin: 0;
     padding: 0;
 }
-/* input[type="checkbox"]{
-    display: none;
-}
-.popup{
-    display: none;
-    position: absolute;
-    background: rgb(214, 213, 212);
-    width: 100%;
-    height: 100%;
-    margin-top: -53.5%;
-    margin-left: -22%;
-    border-radius: 150px;
-    z-index: 3;
-}
-
-label{
-    font-size: 28px;
-    cursor: progress;
-} */
-
-/* input[type="checkbox"]{
-    display: none;
-} */
-/* #show:checked ~ .cadre{
-    z-index: 8;
-}
-#show:checked ~.popup{
-    display: block;
-}
-#show:checked ~ .confirme{
-    z-index: -1;
-} */
-
 @font-face {
     font-family:'beyno regular' ;
     src: url('../Police/beyno-regular/beyno-regular.otf');
@@ -99,18 +66,6 @@ nav{
     color: white;
     border-bottom: 2px solid white;
 }
-
-/* h1::before{
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 3px;
-    background-color: crimson;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: animate 4s linear infinite;
-} */
 .current a{
     color: violet;
     border-bottom: 2px solid violet;
@@ -156,9 +111,10 @@ p{
     margin-top: 15%;
     z-index: 15;
 }
-/* .intro{
+/*Fade in style*/
+.intro{
     animation: fadeIN 5s;
-} */
+}
 @keyframes fadeIN {
 
     from{
