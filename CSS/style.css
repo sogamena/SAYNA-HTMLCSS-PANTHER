@@ -201,8 +201,7 @@ footer{
     background-image: url('../Illustrations_logos/All_pages/back_footer.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 80%;
-    height: 55vh;
+    background-position: 65%;
 }
 
 /* ------------------------Styles grid sur pied du page------------------------ */
@@ -216,10 +215,27 @@ footer{
 }
 
 /* ------------------------Styles classe sur grid ----------------------------- */
-.pied-contenu{
-    margin-right: 10%;
-    height: 150%;
+/* ----------------------Styles pour ajouter background logo sayana X marvel----*/
+.pied-contenu:nth-of-type(1){
+    width: 60%;
+    height: 100%;
+    margin-left: 30%;
+}
+.pied-contenu:nth-of-type(1):hover{
+    width: 65%;
+    height: 102%;
+}
+.pied-contenu .fond-sayna{
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
 
+.pied-contenu .fond-sayna:nth-of-type(2){
+    position: relative;
+    width: 45%;
+    top: -53%;
+    left: 12%;
 }
 
 /* -----------------------Styles d'ajustement logo sayana X marvel--------------*/
@@ -229,30 +245,6 @@ footer{
     margin-left: 47%;
 }
 
-/* ----------------------Styles pour ajouter background logo sayana X marvel----*/
-.pied-contenu:nth-of-type(1){
-    background: greenyellow;
-    width: 20%;
-    height: 40%;
-}
-.pied-contenu .fond-sayna{
-    width: 100%;
-    margin-top: 10%;
-    margin-left: 25%;
-}
-
-.pied-contenu .fond-sayna:nth-of-type(2){
-    position: relative;
-    width: 25%;
-    top: -35%;
-    left: 8%;
-}
-.fond-sayna:hover{
-    width: 20%;
-}
-.fond-sayna:nth-of-type(2):hover{
-    width: 20%;
-}
 /* ---------------------Styles tailles textes------------------------------------ */
 
 
