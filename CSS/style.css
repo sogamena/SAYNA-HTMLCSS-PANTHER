@@ -24,7 +24,7 @@ body{
     overflow-x: hidden;
 }
 body{
-    background-image: url('../Illustrations_logos/All_pages/arrière_plan.png');
+    background-image: url('../Illustrations_logos/All_pages/arriere_plan.png');
     background-size: cover;
     width: 100%;
     height: auto;
@@ -251,6 +251,7 @@ footer{
 /* ---------------------Met une espace entre PAGE et RETROUVEZ NOUS ------------- */
 .espace{
     letter-spacing: 212px;
+    font-family:'Cantarell Regular';
 }
 
 /* ---------------------Grid  a propos et icons-----------------------------------*/
@@ -274,7 +275,7 @@ footer{
 }
 
 .rs p{
-    font-size: 12px;
+    font-size: 16px;
 }
 
 /* ---------------------Styles largeur icones réseau sociaux---------------------- */
@@ -284,9 +285,14 @@ footer{
     margin-left: 18%;
 }
 
+.foot-icon ul{
+    list-style: none;
+    display: flex;
+}
+
 /* ---------------------Styles sur icon footer-----------------------------------  */
 .foot-icon img{
-    width: 10%;
+    width: 60%;
     height: auto;
     text-align: center;
     padding-left: 0%;
