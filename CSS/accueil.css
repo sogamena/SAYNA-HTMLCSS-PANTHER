@@ -33,7 +33,9 @@ blockquote{
 .pause ul{
     list-style: none;
 }
-
+.pause ul img:hover{
+    filter: brightness(0) saturate(100%) invert(88%) sepia(100%) saturate(2%) hue-rotate(258deg) brightness(109%) contrast(101%);
+}
 .accueil-contenu{
     display: grid;
     grid-template-columns: 55% 55%;
