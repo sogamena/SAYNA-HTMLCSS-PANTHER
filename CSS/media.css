@@ -89,6 +89,7 @@
         letter-spacing: 150px;
     }
     
+    
     /* Styles sur icones réseaux sociaux */
     .foot{
         width: 68%;
@@ -1297,12 +1298,40 @@
     }
 
     /* ------------------------Styles icon réseaux sociaux ------------------------ */
+    /* ----------------------Styles sur image cercle ----*/
+
+.sous-image{
+    position: relative;
+    margin-top: -82%;
+    margin-left: -42%;
+}
+
+.sous-image img{
+    width: 28%;
+}
+/*  */
+
+/* ---------------------Styles largeur icones réseau sociaux---------------------- */
+
+
+.foot-icon ul{
+    width: 75%;
+}
+
+/* ---------------------Styles sur icon footer-----------------------------------  */
+.foot-icon img{
+    width: 100px;
+    height: auto;
+    text-align: center;
+    padding-left: 0%;
+    padding-right: 0%;  
+}
     .foot-icon{
         width: 80%;
-        margin-left: 20%;
+        margin-left: 28%;
     }
     .foot-icon img{
-        width: 15%;
+        width: 68%;
         height: auto;
         text-align: center;
         padding-left: 0%;
