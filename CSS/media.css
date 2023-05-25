@@ -176,19 +176,19 @@
             .wakanda{
                 justify-content: center;
             }
-            .logo-droite{
+            .logo-gauche{
                 width: 2%;
             }
-            .logo-droite img{
+            .logo-gauche img{
                 height: 15px;
                 margin-top: 10%;
             }
             /* ---------------------------------------------------------------*/
-            .menu-gauche ul{
+            .maenu-droite ul{
                 margin-left: 10px;
                 margin-top: 8%;
             }
-            .menu-gauche h2{
+            .maenu-droite h2{
                 font-size: 5px;
             }
         
@@ -476,19 +476,19 @@
      .wakanda{
         justify-content: center;
     }
-    .logo-droite{
+    .logo-gauche{
         width: 25%;
     }
-    .logo-droite img{
+    .logo-gauche img{
         height: 15px;
         margin-top: 10%;
     }
     /* ---------------------------------------------------------------*/
-    .menu-gauche ul{
+    .maenu-droite ul{
         margin-left: -10px;
         margin-top: 8%;
     }
-    .menu-gauche h2{
+    .maenu-droite h2{
         font-size: 15px;
     }
     
@@ -703,12 +703,12 @@
         margin-left: 15%;
         margin-right: 0%;
     }
-    .menu-gauche ul li{
+    .maenu-droite ul li{
         margin-left: 1.5%;
         padding: 2% 0 10% 0%;
     }
 
-    .logo-droite{
+    .logo-gauche{
         width: 35%;
     }
 /* Styles sur accueil */
@@ -1005,12 +1005,12 @@
         margin-left: 15%;
         margin-right: 0%;
     }
-    .menu-gauche ul li{
+    .maenu-droite ul li{
         margin-left: 1.5%;
         padding: 2% 0 10% 0%;
     }
 
-    .logo-droite{
+    .logo-gauche{
         width: 35%;
     }
 /* Styles sur accueil */

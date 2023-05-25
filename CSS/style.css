@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 @font-face {
     font-family:'beyno regular' ;
     src: url('../Police/beyno-regular/beyno-regular.otf');
@@ -39,30 +40,30 @@ nav{
     margin-left: -5%;
     margin-right: -5%;
 }
-/* Style sur menu gauche */
-.menu-gauche ul{
+/* -------------------------------- Style sur menu droite -------------------------- */
+.maenu-droite ul{
     display: flex;
     list-style: none;
     
 }
-.menu-gauche ul li{
+.maenu-droite ul li{
     margin-left: 5%;
     padding: 2% 0 10% 0%;
 }
-.menu-gauche ul li a{
+.maenu-droite ul li a{
     text-decoration: none;
 }
-.menu-gauche h2{
+.maenu-droite h2{
     font-size: 32px;
     font-family: 'beyno regular';
 }
 
-.menu-gauche a{
+.maenu-droite a{
     color: #9E91B740;
 }
 /* Survole */
 
-.menu-gauche h2:hover{
+.maenu-droite h2:hover{
     color: white;
     border-bottom: 2px solid white;
 }
@@ -70,12 +71,23 @@ nav{
     color: violet;
     border-bottom: 2px solid violet;
 }
-/* fin gauche */
+/* ---------------------Fin menu droite----------------------------- */
 
 /* Ceci est un style du logo droite */
 
-.logo-droite{
+.logo-gauche{
+    position: relative;
     margin-top: 1%;
+    height: 5vh;
+}
+
+.logo-gauche ul{
+    list-style: none;
+    display: flex;
+}
+
+.logo-gauche ul li .icons{
+    margin: 10px 3px 3px;
 }
 h1, h2{
     color: #9E91B7;
@@ -202,6 +214,7 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 65%;
+    height: 50vh;
 }
 
 /* ------------------------Styles grid sur pied du page------------------------ */
@@ -214,8 +227,12 @@ footer{
     margin-left: 5%;
 }
 
+.pied-page #image-cercle ul{
+    list-style: none;
+}
+
 /* ------------------------Styles classe sur grid ----------------------------- */
-/* ----------------------Styles pour ajouter background logo sayana X marvel----*/
+/* ----------------------Styles sur image cercle ----*/
 .pied-contenu:nth-of-type(1){
     width: 60%;
     height: 100%;
@@ -225,18 +242,25 @@ footer{
     width: 65%;
     height: 102%;
 }
-.pied-contenu .fond-sayna{
+#image-cercle .fond-sayna1{
     width: 70%;
     margin-top: 5%;
     margin-left: 15%;
 }
 
-.pied-contenu .fond-sayna:nth-of-type(2){
+.sous-image{
     position: relative;
-    width: 45%;
-    top: -53%;
-    left: 12%;
+    margin-top: -75%;
+    margin-left: -30%;
 }
+
+.sous-image img{
+    width: 28%;
+}
+
+
+/*-----------------------------Fin image cercle*/
+
 
 /* -----------------------Styles d'ajustement logo sayana X marvel--------------*/
 
@@ -282,22 +306,22 @@ footer{
 .foot-icon{
     width: 60%;
     margin-top: -2%;
-    margin-left: 18%;
+    margin-left: 24%;
 }
 
 .foot-icon ul{
     list-style: none;
     display: flex;
+    width: 55%;
 }
 
 /* ---------------------Styles sur icon footer-----------------------------------  */
 .foot-icon img{
-    width: 60%;
+    width: 70%;
     height: auto;
     text-align: center;
     padding-left: 0%;
-    margin-left: 0%;
-    padding-right: 2%;  
+    padding-right: 0%;  
 }
 
 /* ---------------------Zoom 10% icon reseaux sociaux--------------------------- */
