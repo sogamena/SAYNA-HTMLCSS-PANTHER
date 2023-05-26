@@ -2,21 +2,21 @@
     /* Debut styles accueil */
     
             /* Hauteur ligne */
-            .ligne1{
+            .trait1{
                 margin-top: -55%;
                 height: 255px;
             }
-            .ligne2{
+            .trait2{
                 margin-top: -55%;
                 height: 150px;
             }
             /* Icons reseau sociaux  */
-            .pause{
+            .icon-fixe{
                 position: fixed;
                 margin-top: 4%;
                 margin-left: 2.5%;
             }
-            .pause ul{
+            .icon-fixe ul{
                 list-style: none;
             }
 
@@ -32,7 +32,7 @@
                 border-radius: 50px;
             }
         
-            .feno{
+            .contact{
                 margin: 0 auto;
                 width: 55%;
                 margin-top: 15px;
@@ -40,13 +40,13 @@
             }
             
         
-            .feno .output{
+            .contact .output{
                 height: 40px;
                 border-radius: 20px;
                 padding-left: 15px;
                 margin-top: 10px;
             }
-            .feno .former{
+            .contact .former{
                 text-align: center;
             }
         
@@ -145,21 +145,21 @@
      /* Debut styles accueil */
     
             /* Hauteur ligne */
-            .ligne1{
+            .trait1{
                 margin-top: -55%;
                 height: 245px;
             }
-            .ligne2{
+            .trait2{
                 margin-top: -55%;
                 height: 135px;
             }
             /* Icons reseau sociaux  */
-            .pause{
+            .icon-fixe{
                 position: fixed;
                 margin-top: 15%;
                 margin-left: 3.2%;
             }
-            .pause ul{
+            .icon-fixe ul{
                 list-style: none;
             }
         
@@ -185,11 +185,11 @@
                 margin-top: 10%;
             }
             /* ---------------------------------------------------------------*/
-            .maenu-droite ul{
+            .menu-droite ul{
                 margin-left: 10px;
                 margin-top: 8%;
             }
-            .maenu-droite h2{
+            .menu-droite h2{
                 font-size: 5px;
             }
         
@@ -385,7 +385,7 @@
                 border-radius: 50px;
             }
         
-            .feno{
+            .contact{
                 margin: 0 auto;
                 width: 55%;
                 margin-top: 15px;
@@ -393,13 +393,13 @@
             }
             
         
-            .feno .output{
+            .contact .output{
                 height: 40px;
                 border-radius: 8px;
                 padding-left: 7px;
                 margin-top: 5px;
             }
-            .feno .former{
+            .contact .former{
                 text-align: center;
             }
         
@@ -426,12 +426,6 @@
                 border-radius: 50px;
             }
 
-            .popup{
-                background: rgb(214, 213, 212);
-                margin-top: -50%;
-                margin-left: -22%;
-                border-radius: 50px;
-            }
         
             /* Styles biographie */
         
@@ -485,11 +479,11 @@
         margin-top: 10%;
     }
     /* ---------------------------------------------------------------*/
-    .maenu-droite ul{
+    .menu-droite ul{
         margin-left: -10px;
         margin-top: 8%;
     }
-    .maenu-droite h2{
+    .menu-droite h2{
         font-size: 15px;
     }
     
@@ -704,7 +698,7 @@
         margin-left: 15%;
         margin-right: 0%;
     }
-    .maenu-droite ul li{
+    .menu-droite ul li{
         margin-left: 1.5%;
         padding: 2% 0 10% 0%;
     }
@@ -714,16 +708,16 @@
     }
 /* Styles sur accueil */
     /* Hauteur ligne */
-    .ligne1{
+    .trait1{
     margin-top: -280%;
     height: 245px;
     }
-    .ligne2{
+    .trait2{
         margin-top: -280%;
         height: 135px;
     }
     /* Icons reseau sociaux  */
-    .pause{
+    .icon-fixe{
         position: fixed;
         margin-top: 20%;
         margin-left: 3.8%;
@@ -744,14 +738,14 @@
         margin-top: -46%;
     }
 
-    .feno{
+    .contact{
         width: 55%;
         margin-top: 10px;
         margin-left: 22%;
     }
     
 
-    .feno .output{
+    .contact .output{
         height: 15px;
         padding-left: 7px;
         margin-top: 5px;
@@ -1006,7 +1000,7 @@
         margin-left: 15%;
         margin-right: 0%;
     }
-    .maenu-droite ul li{
+    .menu-droite ul li{
         margin-left: 1.5%;
         padding: 2% 0 10% 0%;
     }
@@ -1016,16 +1010,16 @@
     }
 /* Styles sur accueil */
     /* Hauteur ligne */
-    .ligne1{
+    .trait1{
     margin-top: -280%;
     height: 245px;
     }
-    .ligne2{
+    .trait2{
         margin-top: -280%;
         height: 135px;
     }
     /* Icons reseau sociaux  */
-    .pause{
+    .icon-fixe{
         position: fixed;
         margin-top: 20%;
         margin-left: 3.8%;
@@ -1046,14 +1040,14 @@
         margin-top: -46%;
     }
 
-    .feno{
+    .contact{
         width: 55%;
         margin-top: 10px;
         margin-left: 22%;
     }
     
 
-    .feno .output{
+    .contact .output{
         height: 15px;
         padding-left: 7px;
         margin-top: 5px;
@@ -1082,12 +1076,6 @@
 
     /* ---------------------Ceci est un style de pop up---------------------- */
 
-    .popup{
-        background: rgba(214, 213, 212, 0.952);
-        margin-top: -72%;
-        margin-left: -22%;
-        border-radius: 50px;
-    }
 
     label{
         font-size: 65%;

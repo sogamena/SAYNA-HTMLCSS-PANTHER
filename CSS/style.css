@@ -41,29 +41,29 @@ nav{
     margin-right: -5%;
 }
 /* -------------------------------- Style sur menu droite -------------------------- */
-.maenu-droite ul{
+.menu-droite ul{
     display: flex;
     list-style: none;
     
 }
-.maenu-droite ul li{
+.menu-droite ul li{
     margin-left: 5%;
     padding: 2% 0 10% 0%;
 }
-.maenu-droite ul li a{
+.menu-droite ul li a{
     text-decoration: none;
 }
-.maenu-droite h2{
+.menu-droite h2{
     font-size: 32px;
     font-family: 'beyno regular';
 }
 
-.maenu-droite a{
+.menu-droite a{
     color: #9E91B740;
 }
 /* Survole */
 
-.maenu-droite h2:hover{
+.menu-droite h2:hover{
     color: white;
     border-bottom: 2px solid white;
 }

@@ -129,9 +129,16 @@
  .btn{
      margin-top: 5%;
      margin-left: 35%;
-     width: 38%;
-     height: 5vh;
-     border-radius: 20px;
+     width: 174px;
+     height: 54px;
+     background: #df99f2;
+     border-radius: 38px;
+     border: none;
+ }
+
+ .btn:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 3px #f2cef220;
  }
  .imgs img{
      width: 300%;

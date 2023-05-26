@@ -13,27 +13,27 @@ blockquote{
     margin-left: 2%;
 }
 /* Epaisseur et couleur ligne */
-.ligne1, .ligne2{
+.trait1, .trait2{
     width: 3px;
     background: #9E91B7;
 }
 /* Hauteur ligne */
-.ligne1{
+.trait1{
     height: 410px;
 }
-.ligne2{
+.trait2{
     height: 300px;
 }
 /* Icons reseau sociaux  */
-.pause{
+.icon-fixe{
     position: fixed;
     margin-top: 15%;
     margin-left: 2.5%;
 }
-.pause ul{
+.icon-fixe ul{
     list-style: none;
 }
-.pause ul img:hover{
+.icon-fixe ul img:hover{
     filter: brightness(0) saturate(100%) invert(88%) sepia(100%) saturate(2%) hue-rotate(258deg) brightness(109%) contrast(101%);
 }
 .accueil-contenu{
@@ -73,10 +73,6 @@ blockquote{
     width: 72%;
 }
 
-/* #texte p{
-    font-size: 88%;
-    text-align: justify;
-} */
 /* Styele sur photos adversaire et allier */
 #heros{
     width: 90%;
@@ -168,14 +164,13 @@ blockquote{
 .chala-texte p{
     font-family:'Cantarell Regular';
     text-align: justify;
-    font-size: 75%;
 }
 
 /* Blog.chala-texte gauche */
 
 .blog{
     width: 90%;
-    height: 60%;
+    height: 40%;
     background: white;
     margin-left: 5%;
     margin-top: 55%;
@@ -195,9 +190,9 @@ blockquote{
 .biographie img{
     position: relative;
     margin-top: -200%;
-    width: 100%;
+    width: 90%;
     height: 200%;
-    margin-left: 0.8%;
+    margin-left: 5%;
 }
 .biographie h3{
     text-align: center;
@@ -210,8 +205,9 @@ blockquote{
 .btn-bio{
     background: #07338c;
     margin: 10px;
-    padding: 8px;
+    padding: 10px;
     border-radius: 5px;
+    font-size: 59.6%;
 
 }
 #bio{
@@ -220,6 +216,7 @@ blockquote{
 
 #bio p{
     color: black;
+    font-size: 58%;
 }
 .img-rond{
     margin-top:5%;
@@ -230,31 +227,31 @@ blockquote{
 .img-rond img{
     width: 100%;
 }
-
+/* ------------------------------------Contactez nous---------------------------------- */
 #forme img{
     width: 100%;
 }
 #forme .forme{
     position: absolute;
-    background: rgba(214, 213, 212, 0.507);
+    background: #f2cef260;
     width: 55%;
-    height: 70%;
+    height: 85%;
     margin-top: -45%;
     margin-left: 25%;
     border-radius: 150px;
 }
 
-.feno{
+.contact{
     margin: 0 auto;
     width: 55%;
     margin-top: 55px;
-    margin-left: 22%;
+    margin-left: 15%;
 }
 
-.feno .output{
-    width: 96%;
-    height: 5vh;
-    border-radius: 50px;
+.contact .output{
+    width: 127%; /* Equivaut width: 520px; */
+    height: 8.5vh;/* height: 56px; */
+    border-radius: 38px;
     background: none;
     outline: none;
     padding-left: 15px;
@@ -262,8 +259,9 @@ blockquote{
     margin-top: 4%;
 }
 
+
 .forme .web{
-    width: 96%;
+    width: 127%; /* Equivaut width: 520px; */
     padding-bottom: 25%;
     border-radius: 25px;
     padding-left: 15px;
@@ -274,8 +272,18 @@ blockquote{
     margin-top: 4%;
 }
 
-.feno .former{
+.contact .former{
     text-align: center;
+    /* margin-left: 13%; */
+    width: 123%;
+}
+
+h4,
+p,
+button,
+::placeholder,
+.popup h1{
+    font-family:'Cantarell Regular';
 }
 
 .former h4{
@@ -285,11 +293,15 @@ blockquote{
 .former p{
     font-size: 45px;
 }
-.forme label{
-    margin-left: 30%;
+
+
+.forme button{
+    margin-left: 38%;
+    width: 174px;
+    height: 54px;
     padding: 2% 6%;
-    border-radius: 50px;
-    background: plum;
+    border-radius: 38px;
+    background: #df99f2;
     border: none;
 }
 
@@ -298,14 +310,11 @@ input[type="checkbox"]{
 }
 .popup{
     display: none;
-    position: absolute;
-    background: rgb(214, 213, 212);
-    width: 100%;
-    height: 100%;
-    margin-top: -57.5%;
-    margin-left: -22%;
-    border-radius: 150px;
-    z-index: 3;
+}
+
+.popup h1{
+    font-size: 165%;
+    text-align: center;
 }
 
 label{
@@ -323,11 +332,23 @@ label{
 #show:checked ~.popup{
     display: block;
 }
-#show:checked ~ .confirme{
-    z-index: -1;
+
+#show:checked ~ input{
+    display: none;
 }
 
-.forme label:hover{
+#show:checked ~ button{
+    display: none;
+}
+
+#show:checked ~ .former{
+    display: none;
+}
+.forme button:hover{
+    box-shadow: 0px 0px 3px 4px #02174020;
+    cursor: pointer;
+}
+.forme button label:hover{
     cursor: pointer;
 }
 
