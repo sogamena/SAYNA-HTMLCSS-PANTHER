@@ -274,8 +274,8 @@ blockquote{
 
 .contact .former{
     text-align: center;
-    /* margin-left: 13%; */
-    width: 123%;
+    
+    width: 130%;
 }
 
 h4,
@@ -291,7 +291,10 @@ button,
 }
 
 .former p{
-    font-size: 45px;
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 48px;
+    width: 100%;
 }
 
 

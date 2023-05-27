@@ -63,13 +63,17 @@ nav{
 }
 /* Survole */
 
-.menu-droite h2:hover{
+.menu-droite h2 a:hover{
     color: white;
-    border-bottom: 2px solid white;
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+    /*text-decoration: dotted;*/
 }
 .current a{
     color: violet;
-    border-bottom: 2px solid violet;
+    border-bottom: 3px solid violet;
+    border-bottom-width: ;
+    padding-bottom: 10px;
 }
 /* ---------------------Fin menu droite----------------------------- */
 
