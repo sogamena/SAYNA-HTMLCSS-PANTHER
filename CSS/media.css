@@ -1,31 +1,24 @@
 @media only screen and (min-width:901px) and (max-width: 1240px){
     /* Debut styles accueil */
     
-            /* Hauteur ligne */
-            .trait1{
-                margin-top: -55%;
-                height: 255px;
-            }
-            .trait2{
-                margin-top: -55%;
-                height: 150px;
-            }
-            /* Icons reseau sociaux  */
-            .icon-fixe{
-                position: fixed;
-                margin-top: 4%;
-                margin-left: 2.5%;
-            }
-            .icon-fixe ul{
-                list-style: none;
-            }
-
-             /* Styles des formulaires a remplir */
-
-            /* 0001 */
-        
-           /* ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp */
-
+    /* Hauteur ligne */
+    .trait1{
+        margin-top: -55%;
+        height: 255px;
+    }
+    .trait2{
+        margin-top: -55%;
+        height: 150px;
+    }
+    /* Icons reseau sociaux  */
+    .icon-fixe{
+        position: fixed;
+        margin-top: 4%;
+        margin-left: 2.5%;
+    }
+    .icon-fixe ul{
+        list-style: none;
+    }
 
 
              /* Styles pour les footer */
@@ -97,278 +90,274 @@
     
      /* Debut styles accueil */
     
-            /* Hauteur ligne */
-            .trait1{
-                margin-top: -55%;
-                height: 245px;
-            }
-            .trait2{
-                margin-top: -55%;
-                height: 135px;
-            }
-            /* Icons reseau sociaux  */
-            .icon-fixe{
-                position: fixed;
-                margin-top: 15%;
-                margin-left: 3.2%;
-            }
-            .icon-fixe ul{
-                list-style: none;
-            }
-        
-        
-            .accueil-contenu{
-                display: grid;
-                grid-template-columns: 45% 45%;
-                margin-left: 20%;
-            }
-            /* Fin style ligne */
-        
-        
-        
-            /* *********Styles menu et logo entete du page ************ */
-            .wakanda{
-                justify-content: center;
-            }
-            .logo-gauche{
-                width: 2%;
-            }
-            .logo-gauche img{
-                height: 15px;
-                margin-top: 10%;
-            }
-            /* ---------------------------------------------------------------*/
-            .menu-droite ul{
-                margin-left: 10px;
-                margin-top: 8%;
-            }
-            .menu-droite h2{
-                font-size: 5px;
-            }
-        
-            nav{
-                margin-left: 10%;
-            }
-        
-        
-            /* --------------------------------------------------------------- */
-            /* fin gauche */
-            
-            /* Ceci est un style du logo droite */
-        
-            .grid-accueil:nth-of-type(1){
-                margin-top: 20%;
-            }
-        
-            #texte{
-                width: 160%;
-                margin-top: 10%;
-                text-align: justify;
-            }
-            
-            h1, h2{
-                color: #9E91B7;
-            }
-            
-            h1{
-                font-family: 'panthera';
-                font-size: 20px;
-            }
-            p{
-                font-family:'Cantarell Regular';
-                color: white;
-            }
-            #intro{
-                width: max-content;
-                margin-top:-3.2%;
-                margin-left: -10%;
-            }
-            
-            .image img{
-                width: 130%;
-                height: 100vh;
-            }
-            .intro{
-                position: absolute;
-                width: 60%;
-                padding-left: 20%;
-                margin-top: -35%;
-            }
-            h2{
-                font-family: 'wakandaForever regular';
-                font-size: 3px;
-            }
-            .texte-intro{
-                width: 52%;
-            }
-            .texte-intro p{
-                font-family:'Cantarell Regular';
-                font-size: 12px;
-                text-align: justify;
-            }
-            
-            .fond{
-                background-image: url('../Illustrations_logos/Wakanda/Pantherwakanda2.png');
-                background-size: 65%;
-                background-repeat: no-repeat;
-                background-position-x: center;
-                margin-top: -5%;
-            }
-            
-            .container{
-                display: grid;
-                grid-template-columns: 50% 50%;
-                padding-top: 10%;
-                margin: 0 10%;
-            }
-        
-            /* debut sur advi */
-        
-            #heros{
-                width: 80%;
-                margin: 0 auto;
-            }
-        
-            .heros-accueil{
-                width: 100%;
-                display: grid;
-                grid-template-columns: 50% 50%;
-                grid-template-rows: 50% 50%;
-                flex-wrap: wrap;
-                height: auto;
-            }
-        
-            /* ce stylepour image */
-            /* .item .allier{
-                width: 80%;
-            } */
-            
-            .item .advis{
-                width: 100%;
-                margin-top: 20%;
-                margin-left: 0;
-            }
-        
-            .ht{
-                width: 4px;
-            }
-            .item{
-                width: 70%;
-            }
-        
-            .item h2{
-                font-size: 22px;
-            }
-        
-            /* ------------------------------------SStyles accueil texte----- */
-            .chala{
-                display: flex;
-                flex-wrap: wrap;
-                margin-left: 0%;
-                width: 80%;
-            }
-            
-            .chala .chala-texte{
-                width:80%;
-            }
-        
-           .media-texte{
-                width: 65%;
-            }
-        
-            
-            .chala-texte img{
-                width: 100%;
-                margin-top: -30%;
-            }
-        
-            /* Styles sur le biographie */
-        
-            .blog{
-                width: 90%;
-                height: 100%;
-                display: grid;
-                background: #ffffff;
-                margin-left: 5%;
-                margin-top: 25%;
-                border-radius: 10px;
-            }
-        
-            .biographie{
-                align-content: center;
-                width: 100%;
-                margin: 0 auto;
-                padding-left: 5%;
-                padding-top: 95%;
-                padding-right: 5%;
-                margin-top: -105%;
-            }
+    /* Hauteur ligne */
+    .trait1{
+        margin-top: -55%;
+        height: 245px;
+    }
+    .trait2{
+        margin-top: -55%;
+        height: 135px;
+    }
+    /* Icons reseau sociaux  */
+    .icon-fixe{
+        position: fixed;
+        margin-top: 15%;
+        margin-left: 3.2%;
+    }
+    .icon-fixe ul{
+        list-style: none;
+    }
 
-            /* Styles sur profils T'chala */
-            .biographie img{
-                position: relative;
-                margin-top: -40%;
-                width: 80%;
-                height: 220%;
-                margin-left: 5%;
-            }
-            .biographie h3{
-                text-align: center;
-            }
 
-            .img-rond{
-                margin-top:25%;
-                margin-left: 25%;
-                width: 90%;
-            }
-            
-            .img-rond img{
-                width: 100%;
-            }            
-        
-            /* Styles des formulaires a remplir */
+    .accueil-contenu{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        margin-left: 20%;
+    }
+    /* Fin style ligne */
 
-            /* 0001 */
-        
-           /* pppppppppppppppppppppppppppppppppppppppppppppppppppppp */
-        
-            /* Styles biographie */
-        
-            /* Blog.chala-texte gauche */
-        
-        
-        .biographie h3{
-            font-size: 165%;
-            margin-top: 15%;
-        }
-        
-        #btn-bio{
-            display: flex;
-            flex-wrap: wrap;
-            width: 90%;
-            margin-left: 0%;
-        }
-        
-        #btn-bio p{
-            font-size: 10px;
-            text-align: center;
-        }
-        .btn-bio{
-            width: 25%;
-            margin:0 auto;
-            margin-top: 2px;
-            padding: 2%;
-            border-radius: 5px;
-            text-align: center;
-        
-        }
-        
-        /* Styles texte sur biographie */
-        
-        #bio p{
-            font-size: 10px;
-        }
+
+
+    /* *********Styles menu et logo entete du page ************ */
+    .wakanda{
+        justify-content: center;
+    }
+    .logo-gauche{
+        width: 2%;
+    }
+    .logo-gauche img{
+        height: 15px;
+        margin-top: 10%;
+    }
+    /* ---------------------------------------------------------------*/
+    .menu-droite ul{
+        margin-left: 10px;
+        margin-top: 8%;
+    }
+    .menu-droite h2{
+        font-size: 5px;
+    }
+
+    nav{
+        margin-left: 10%;
+    }
+
+
+    /* --------------------------------------------------------------- */
+    /* fin gauche */
     
+    /* Ceci est un style du logo droite */
+
+    .grid-accueil:nth-of-type(1){
+        margin-top: 20%;
+    }
+
+    #texte{
+        width: 160%;
+        margin-top: 10%;
+        text-align: justify;
+    }
+    
+    h1, h2{
+        color: #9E91B7;
+    }
+    
+    h1{
+        font-family: 'panthera';
+        font-size: 20px;
+    }
+    p{
+        font-family:'Cantarell Regular';
+        color: white;
+    }
+    #intro{
+        width: max-content;
+        margin-top:-3.2%;
+        margin-left: -10%;
+    }
+    
+    .image img{
+        width: 130%;
+        height: 100vh;
+    }
+    .intro{
+        position: absolute;
+        width: 60%;
+        padding-left: 20%;
+        margin-top: -35%;
+    }
+    h2{
+        font-family: 'wakandaForever regular';
+        font-size: 3px;
+    }
+    .texte-intro{
+        width: 52%;
+    }
+    .texte-intro p{
+        font-family:'Cantarell Regular';
+        font-size: 12px;
+        text-align: justify;
+    }
+    
+    .fond{
+        background-image: url('../Illustrations_logos/Wakanda/Pantherwakanda2.png');
+        background-size: 65%;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        margin-top: -5%;
+    }
+    
+    .container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-top: 10%;
+        margin: 0 10%;
+    }
+
+    /* debut sur advi */
+
+    #heros{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .heros-accueil{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    /* ce stylepour image */
+    /* .item .allier{
+        width: 80%;
+    } */
+    
+    .item .advis{
+        width: 100%;
+        margin-top: 20%;
+        margin-left: 0;
+    }
+
+    .ht{
+        width: 4px;
+    }
+    .item{
+        width: 70%;
+    }
+
+    .item h2{
+        font-size: 22px;
+    }
+
+    /* ------------------------------------SStyles accueil texte----- */
+    .chala{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0%;
+        width: 80%;
+    }
+    
+    .chala .chala-texte{
+        width:80%;
+    }
+
+    .media-texte{
+        width: 65%;
+    }
+
+    
+    .chala-texte img{
+        width: 100%;
+        margin-top: -30%;
+    }
+
+    /* Styles sur le biographie */
+
+    .blog{
+        width: 90%;
+        height: 100%;
+        display: grid;
+        background: #ffffff;
+        margin-left: 5%;
+        margin-top: 25%;
+        border-radius: 10px;
+    }
+
+    .biographie{
+        align-content: center;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 5%;
+        padding-top: 95%;
+        padding-right: 5%;
+        margin-top: -105%;
+    }
+
+    /* Styles sur profils T'chala */
+    .biographie img{
+        position: relative;
+        margin-top: -40%;
+        width: 80%;
+        height: 220%;
+        margin-left: 5%;
+    }
+    .biographie h3{
+        text-align: center;
+    }
+
+    .img-rond{
+        margin-top:25%;
+        margin-left: 25%;
+        width: 90%;
+    }
+    
+    .img-rond img{
+        width: 100%;
+    }            
+        
+        /* Styles des formulaires a remplir */
+    
+        /* Styles biographie */
+    
+        /* Blog.chala-texte gauche */
+    
+    
+    .biographie h3{
+        font-size: 165%;
+        margin-top: 15%;
+    }
+    
+    #btn-bio{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-left: 0%;
+    }
+    
+    #btn-bio p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .btn-bio{
+        width: 25%;
+        margin:0 auto;
+        margin-top: 2px;
+        padding: 2%;
+        border-radius: 5px;
+        text-align: center;
+    
+    }
+    
+    /* Styles texte sur biographie */
+    
+    #bio p{
+        font-size: 10px;
+    }
+
     
     /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!---------------------------------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
     
@@ -987,10 +976,6 @@
     .btn-afficher1{
         background: #fff;
         padding: 10px 20px;
-        font-size: 20px;
-        font-weight: 500;
-        color: #07338c;
-        cursor: pointer;
         top: 70%;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     
@@ -998,38 +983,21 @@
     
     
     .container1{
-        position: absolute;
-        background: #f2cef260;
-        border-radius: 150px;
+        border-radius: 50px;
         margin-top: 22%;
-        left: 50%;
-        transform: translate(-50%, -50%);
     }
     
     .container1{
-        display: none;
-        background: #fff;
-        width: 55%;
+        width: 75%;
         height: 85%;
-        box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+        margin-top: 90%;
     }
     
     .container1 .text{
-        font-size: 45px;
-        font-weight: 600;
-        text-align: center;
-        margin-top: 30%;
+        font-size: 15px;
     }
     
-    
-    .text h3{
-        text-transform: uppercase;
-        color: #07338c;
-    }
-    
-    .btn-fermer{
-        font-size: 25px;
-    }
+
     
     
     /*-----------------------------------------------fin style formulire ----------------------------------- */
