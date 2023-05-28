@@ -99,8 +99,8 @@ blockquote{
     text-align: justify;
     font-size: 75%;
 }
-/* Debut teste */
-.testes{
+/* Debut image accueil */
+.heros-accueil{
     width: 100%;
     display: grid;
     grid-template-columns: 13% 25% 15% 25% 13%;
@@ -228,9 +228,7 @@ blockquote{
     width: 100%;
 }
 /* ------------------------------------Contactez nous---------------------------------- */
-#forme img{
-    width: 100%;
-}
+
 #forme .forme{
     position: absolute;
     background: #f2cef260;
@@ -286,79 +284,157 @@ button,
     font-family:'Cantarell Regular';
 }
 
-.former h4{
-    font-size: 17px;
-}
 
-.former p{
-    margin-top: 0;
-    margin-left: 0;
-    font-size: 48px;
+
+
+/* Ceci c'est style de formulaire----------------------------------------------------- */
+
+#forme{
+    background-image: url('../Illustrations_logos/Accueil/Pantherhome7.png');
     width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+
+.donner-perso{
+    position: absolute;
+    background: #f2cef260;
+    width: 55%;
+    height: 50vh;
+    border-radius: 150px;
+    margin-top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.donner-perso .text{
+    width: 100%;
+    margin-top: 8%;
+    text-align: center;
+}
+
+.text p{
+    font-family:'Cantarell Regular';
+    font-size: 70%;
+}
+
+.donner-perso form{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center !important;
+}
+
+.donner-perso form input{
+    width: 520px;
+    height: 56px;
+    padding-left: 25px;
+    border-radius: 50px;
+    outline: none;
+    background: none;
+    border: 2px solid rgba(0, 0, 0, 0.479);
+}
+
+.btn-afficher, .btn-afficher1{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 38px;
+}
+.btn-afficher{
+    background: #f2cef2;
+    top: 90%;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-afficher:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 
-.forme button{
-    margin-left: 38%;
-    width: 174px;
-    height: 54px;
-    padding: 2% 6%;
-    border-radius: 38px;
-    background: #df99f2;
-    border: none;
+label{
+    width: 100px;
+    height: 30px;
+}
+.text h2{
+    color: black;
+    font-size: 54px;
+}
+label:hover .btn1{
+    cursor: pointer;
+}
+
+.donner input{
+    padding-left: 10px;
 }
 
 input[type="checkbox"]{
     display: none;
 }
-.popup{
-    display: none;
+
+.donner:nth-of-type(3) input{
+    padding-bottom: 16%;
 }
 
-.popup h1{
-    font-size: 165%;
-    text-align: center;
+/* ------------------------------------ Style sur pop up -------------------------------- */
+
+.btn-afficher1{
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #07338c;
+    cursor: pointer;
+    top: 70%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
 }
 
-label{
-    position: relative;
-    font-size: 105%;
-    cursor: progress;
+.btn-afficher1:hover{
+    background: #f2cef2;
 }
-
-/* input[type="checkbox"]{
-    display: none;
-} */
-#show:checked ~ .cadre{
-    z-index: 8;
-}
-#show:checked ~.popup{
+#show:checked ~ .container1{
     display: block;
 }
 
-#show:checked ~ input{
-    display: none;
+.container1{
+    position: absolute;
+    background: #f2cef260;
+    border-radius: 150px;
+    margin-top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#show:checked ~ button{
+.container1{
     display: none;
+    background: #fff;
+    width: 55%;
+    height: 85%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
-#show:checked ~ .former{
-    display: none;
-}
-.forme button:hover{
-    box-shadow: 0px 0px 3px 4px #02174020;
-    cursor: pointer;
-}
-.forme button label:hover{
-    cursor: pointer;
-}
-
-.popup h1{
+.container1 .text{
+    font-size: 45px;
+    font-weight: 600;
     text-align: center;
-    margin-top: 28%;
+    margin-top: 30%;
 }
+
+.text h3{
+    text-transform: uppercase;
+    color: #07338c;
+}
+
+.btn-fermer{
+    font-size: 25px;
+}
+
+
+/*-----------------------------------------------fin style formulire ----------------------------------- */
 
 .icon-pied:hover{
     scale: 110%;

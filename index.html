@@ -67,7 +67,7 @@
 
         <div id="heros">
             <div class="tous">       
-                <div class="testes">
+                <div class="heros-accueil">
                     <div class="item ht1">
                         <img class="advis" src="./Illustrations_logos/Accueil/Pantherhome2.png" alt="">
                     </div>
@@ -224,25 +224,38 @@
     <!-- Ceci est une contenu sur contactez nous -->
 
     <div id="forme">
-        <img src="./Illustrations_logos/Accueil/Pantherhome7.png" alt="">
-        <div class="forme">
-            <div class="contact">
-                <input type="checkbox" id="show">
-                <div class="former">
-                    <h4>Besoin de l'intervation du Wakanda</h4>
-                    <p class="contact">Contactez nous !</p>
+        <img src="./Illustrations_logos/Accueil/Pantherhome.png" alt="">
+        <div class="center">
+            <input type="checkbox" id="show">
+            <div class="donner-perso">
+                <div class="text">
+                    <p>Besoin de l'intervention du wakanda ?</p>
+                    <h2>Contact nous !</h2>
                 </div>
-                <input class="output" type="text" placeholder="Nom"><br>
-                <input class="output"type="text" placeholder="Email"><br>
-                <input class="web" type="text" placeholder="Message"><br><br>
-                <button>
-                    <label for="show">
-                        ENVOYER
-                    </label>
+                <form action="#">
+                    <div class="donner">
+                        <input type="text" placeholder="Nom">
+                    </div><br>
+    
+                    <div class="donner">
+                        <input type="email" placeholder="Email">
+                    </div><br>
+    
+                    <div class="donner">
+                        <input class="input-message" type="text" placeholder="Message">
+                    </div>
+                </form>
+                <button class="btn1" type="submit">
+                    <label for="show" class="btn-afficher">envoyer</label>
                 </button>
-                <div class="popup">
-                    <h1>Message reçu</h1>
+            </div>
+            <div class="container1">
+                <div class="text">
+                    <h3>message reçu</h3>
                 </div>
+                <button class="btn2" type="submit">
+                    <label for="show" class="btn-afficher1">Fermer</label>
+                </button>
             </div>
         </div>
     </div>

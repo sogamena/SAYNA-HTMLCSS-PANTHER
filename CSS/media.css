@@ -24,54 +24,7 @@
 
             /* 0001 */
         
-            #forme .forme{
-                width: 55%;
-                height: 45%;
-                margin-top: -45%;
-                margin-left: 22%;
-                border-radius: 50px;
-            }
-        
-            .contact{
-                margin: 0 auto;
-                width: 55%;
-                margin-top: 15px;
-                margin-left: 22%;
-            }
-            
-        
-            .contact .output{
-                height: 40px;
-                border-radius: 20px;
-                padding-left: 15px;
-                margin-top: 10px;
-            }
-            .contact .former{
-                text-align: center;
-            }
-        
-            .forme .web{
-                padding-bottom: 15%;
-                border-radius: 20px;
-                padding-left: 15px;
-                padding-top: 8px;
-                margin-top: 10PX;
-            }
-        
-            .former h4{
-                font-size: 15px;
-            }
-            
-            .former p{
-                font-size: 20px;
-            }
-            .forme button{
-                font-size: 25px;
-                margin-left: 30%;
-                border-radius: 20px;
-                margin-top: 5%;
-            }
-
+           /* ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp */
 
 
 
@@ -276,7 +229,7 @@
                 margin: 0 auto;
             }
         
-            .testes{
+            .heros-accueil{
                 width: 100%;
                 display: grid;
                 grid-template-columns: 50% 50%;
@@ -377,55 +330,7 @@
 
             /* 0001 */
         
-            #forme .forme{
-                width: 55%;
-                height: 45%;
-                margin-top: -45%;
-                margin-left: 22%;
-                border-radius: 50px;
-            }
-        
-            .contact{
-                margin: 0 auto;
-                width: 55%;
-                margin-top: 15px;
-                margin-left: 22%;
-            }
-            
-        
-            .contact .output{
-                height: 40px;
-                border-radius: 8px;
-                padding-left: 7px;
-                margin-top: 5px;
-            }
-            .contact .former{
-                text-align: center;
-            }
-        
-            .forme .web{
-                padding-bottom: 15%;
-                border-radius: 8px;
-                padding-left: 7px;
-                padding-top: 3px;
-                background: none;
-                outline: none;
-                margin-top: 5PX;
-            }
-        
-            .former h4{
-                font-size: 10px;
-            }
-            
-            .former p{
-                font-size: 15px;
-            }
-            .forme button{
-                margin-left: 30%;
-                padding: 2% 6%;
-                border-radius: 50px;
-            }
-
+           /* pppppppppppppppppppppppppppppppppppppppppppppppppppppp */
         
             /* Styles biographie */
         
@@ -723,7 +628,7 @@
         margin-left: 3.8%;
     }
 
-    .testes{
+    .heros-accueil{
         display: flex;
     }
 
@@ -731,47 +636,7 @@
      /* Styles des formulaires a remplir */
 
     /* 0001 */
-
-    #forme .forme{
-        width: 55%;
-        height: 18%;
-        margin-top: -46%;
-    }
-
-    .contact{
-        width: 55%;
-        margin-top: 10px;
-        margin-left: 22%;
-    }
-    
-
-    .contact .output{
-        height: 15px;
-        padding-left: 7px;
-        margin-top: 5px;
-    }
-
-    ::placeholder{
-        font-size: 10px;
-    }
-
-    .forme .web{
-        padding-bottom: 10%;
-    }
-
-    .former h4{
-        font-size: 8px;
-    }
-    
-    .former p{
-        font-size: 10px;
-    }
-    .forme button{
-        font-size: 68%;
-        margin-left: 30%;
-        margin-top: 3%;
-    }
-
+/* ppppppppppppppppppppppppppppppppppppppppppppppppppppszd */
     /* Pour wakanda */
     #intro{
         width: 110%;
@@ -1025,8 +890,16 @@
         margin-left: 3.8%;
     }
 
-    .testes{
+    .heros-accueil{
         display: flex;
+    }
+
+    .chala-texte h2{
+        font-size: 120%;
+    }
+
+    .heros-protecteur{
+        margin-top: 25%;
     }
 
 
@@ -1034,52 +907,132 @@
 
     /* 0001 */
 
-    #forme .forme{
-        width: 55%;
-        height: 20%;
-        margin-top: -46%;
-    }
-
-    .contact{
-        width: 55%;
-        margin-top: 10px;
-        margin-left: 22%;
+    .donner-perso{
+        width: 75%;
+        height: 85%;
+        margin-top: 90%;
+        border-radius: 50px;
     }
     
-
-    .contact .output{
-        height: 15px;
-        padding-left: 7px;
-        margin-top: 5px;
-    }
-
-    ::placeholder{
-        font-size: 6px;
-    }
-
-    .forme .web{
-        padding-bottom: 10%;
-    }
-
-    .former h4{
-        font-size: 5px;
+    .donner-perso .text{
+        width: 100%;
+        margin-top: 8%;
+        text-align: center;
     }
     
-    .former p{
-        font-size: 7px;
+    .donner-perso form{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center !important;
     }
-    .forme button{
-        font-size: 6%;
-        margin-left: 30%;
-        margin-top: 3%;
+    
+    .donner-perso form input{
+        width: 80%;
+        height: 5vh;
+        padding-left: 25px;
+        border-radius: 50px;
+        outline: none;
+        background: none;
+        border: 2px solid rgba(0, 0, 0, 0.479);
     }
-
-    /* ---------------------Ceci est un style de pop up---------------------- */
-
-
+    
+    .btn-afficher, .btn-afficher1{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 38px;
+    }
+    .btn-afficher{
+        background: #f2cef2;
+        top: 90%;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    
+    .btn-afficher:hover{
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    
     label{
-        font-size: 65%;
+        width: 100px;
+        height: 30px;
     }
+    .text h2{
+        color: black;
+        font-size: 164%;
+        font-family:'Cantarell Regular';
+    }
+    label:hover .btn1{
+        cursor: pointer;
+    }
+    
+    .donner input{
+        padding-left: 10px;
+    }
+    
+    input[type="checkbox"]{
+        display: none;
+    }
+    
+    .donner:nth-of-type(3) input{
+        padding-bottom: 16%;
+    }
+    
+    /* ------------------------------------ Style sur pop up -------------------------------- */
+    
+    .btn-afficher1{
+        background: #fff;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #07338c;
+        cursor: pointer;
+        top: 70%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+    }
+    
+    
+    .container1{
+        position: absolute;
+        background: #f2cef260;
+        border-radius: 150px;
+        margin-top: 22%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .container1{
+        display: none;
+        background: #fff;
+        width: 55%;
+        height: 85%;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    }
+    
+    .container1 .text{
+        font-size: 45px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 30%;
+    }
+    
+    
+    .text h3{
+        text-transform: uppercase;
+        color: #07338c;
+    }
+    
+    .btn-fermer{
+        font-size: 25px;
+    }
+    
+    
+    /*-----------------------------------------------fin style formulire ----------------------------------- */
 
     /* Pour wakanda */
     #intro{
